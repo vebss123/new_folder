@@ -3,6 +3,8 @@ resource "aws_instance" "public_instance" {
  instance_type = var.instance_type
 
  tags = {
-   Name = var.name_tag,
+   team = var.team,
+   user=var.user,
+   AutoStop=var.AutoStop
  }
 }
