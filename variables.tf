@@ -29,8 +29,22 @@ variable "instance_type" {
    default     = "t2.micro"
 }
 
-variable "name_tag" {
+variable "team" {
    type        = string
-   description = "Name of the EC2 instance"
-   default     = "My EC2 Instance"
+   description = "Name of the team"
+   default     = "Cloud Consulting"
 }
+
+variable "user" {
+   type        = string
+   description = "Name of the user"
+   default     = "Vaibhav"
+}
+
+variable "AutoStop" {
+   type        = Boolean
+   description = "AutoStop status"
+   default     = "True"
+}
+
+
