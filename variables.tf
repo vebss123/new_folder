@@ -44,7 +44,7 @@ variable "user" {
 variable "AutoStop" {
    type        = bool
    description = "AutoStop status"
-   default     = "True"
+   default     = "true"
 }
 
 
