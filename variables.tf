@@ -42,7 +42,7 @@ variable "user" {
 }
 
 variable "AutoStop" {
-   type        = Boolean
+   type        = bool
    description = "AutoStop status"
    default     = "True"
 }
